@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "source": "museum1.png",
+      "valid": true,
+      "status": "ok",
+      "sourceFormat": "PNG",
+      "sourceWidth": 2160,
+      "sourceHeight": 1080,
+      "output": "museum1.png.jpg",
+      "width": 640,
+      "height": 320
+    },
+    {
+      "source": "museum2.png",
+      "valid": true,
+      "status": "ok",
+      "sourceFormat": "PNG",
+      "sourceWidth": 2160,
+      "sourceHeight": 1080,
+      "output": "museum2.png.jpg",
+      "width": 640,
+      "height": 320
+    },
+    {
+      "source": "museum3.png",
+      "valid": true,
+      "status": "ok",
+      "sourceFormat": "PNG",
+      "sourceWidth": 2160,
+      "sourceHeight": 1080,
+      "output": "museum3.png.jpg",
+      "width": 640,
+      "height": 320
+    },
+    {
+      "source": "wrong_size.png",
+      "valid": false,
+      "status": "error",
+      "error": "Требуется соотношение сторон 2:1"
+    }
+  ]
+}
