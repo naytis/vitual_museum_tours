@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a843bad3-a7ab-4597-a936-e323ab84e98c" name="Changes" comment="image format checking">
-      <change afterPath="$PROJECT_DIR$/demo-result/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-result/museum1.png.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-result/museum2.png.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-result/museum3.png.jpg" afterDir="false" />
+    <list default="true" id="a843bad3-a7ab-4597-a936-e323ab84e98c" name="Changes" comment="написание функций масштабирования и экспорта панорам и обработки каталога с написанием манифеста, результаты пробного запуска">
+      <change afterPath="$PROJECT_DIR$/tests/test_panorama.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panorama.py" beforeDir="false" afterPath="$PROJECT_DIR$/panorama.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793721963383</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="написание функций масштабирования и экспорта панорам и обработки каталога с написанием манифеста, результаты пробного запуска">
+      <option name="closed" value="true" />
+      <created>1793722820232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1793722820232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="image format checking" />
-    <option name="LAST_COMMIT_MESSAGE" value="image format checking" />
+    <MESSAGE value="написание функций масштабирования и экспорта панорам и обработки каталога с написанием манифеста, результаты пробного запуска" />
+    <option name="LAST_COMMIT_MESSAGE" value="написание функций масштабирования и экспорта панорам и обработки каталога с написанием манифеста, результаты пробного запуска" />
   </component>
 </project>
