@@ -1,0 +1,17 @@
+test_bad_settings (test_panorama.PipelineTests.test_bad_settings) ... ok
+test_decoding_truncated_jpeg (test_panorama.PipelineTests.test_decoding_truncated_jpeg) ... ok
+test_empty_directory (test_panorama.PipelineTests.test_empty_directory) ... ok
+test_input_protected (test_panorama.PipelineTests.test_input_protected) ... ok
+test_missing (test_panorama.PipelineTests.test_missing) ... ok
+test_mixed_batch (test_panorama.PipelineTests.test_mixed_batch) ... ok
+test_no_upscale_and_alpha (test_panorama.PipelineTests.test_no_upscale_and_alpha) ... ok
+test_nonempty_destination (test_panorama.PipelineTests.test_nonempty_destination) ... ok
+test_resize_and_json (test_panorama.PipelineTests.test_resize_and_json) ... ok
+test_same_stem (test_panorama.PipelineTests.test_same_stem) ... ok
+test_save_error (test_panorama.PipelineTests.test_save_error) ... ok
+test_unsupported (test_panorama.PipelineTests.test_unsupported) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.803s
+
+OK

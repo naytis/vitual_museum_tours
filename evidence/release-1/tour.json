@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "museumId": "d31efe08-0e64-4e82-83e1-57eb1e200cc8",
+  "museumName": "Учебный музей",
+  "tourId": "f888d309-2205-4ab3-8077-0eac1b72cc13",
+  "title": "Маршрут двух залов",
+  "revision": {
+    "id": "52fdb3e2-8e35-428d-bbf9-1045b886f2ff",
+    "number": 1,
+    "status": "PUBLISHED",
+    "startHallId": "dc2d7e78-ee62-42cd-b01d-2f962dc5ac76",
+    "halls": [
+      {
+        "id": "dc2d7e78-ee62-42cd-b01d-2f962dc5ac76",
+        "name": "Живопись",
+        "panorama": {
+          "assetPath": "assets/a8363b9f8a59211795d13dacf684fc099baa961fda5078439c6166197daccf6a.jpg",
+          "source": "museum1.png",
+          "width": 640,
+          "height": 320
+        }
+      },
+      {
+        "id": "c0998f0e-30b5-436f-b512-ba2167e6684c",
+        "name": "Графика",
+        "panorama": {
+          "assetPath": "assets/a239dfc54d9c33d632135c7fd1510290bf2d640c0c5116664a874255bd8e0568.jpg",
+          "source": "museum2.png",
+          "width": 640,
+          "height": 320
+        }
+      }
+    ],
+    "exhibits": [
+      {
+        "id": "26ffb5bd-5ee4-4250-9d34-a782df50c9b5",
+        "hallId": "dc2d7e78-ee62-42cd-b01d-2f962dc5ac76",
+        "title": "Пейзаж",
+        "author": "Автор",
+        "dating": "1901",
+        "description": "Уточнённая карточка"
+      }
+    ],
+    "points": [
+      {
+        "id": "74380da5-6c3a-4f5a-943d-d80c5c340fbe",
+        "hallId": "dc2d7e78-ee62-42cd-b01d-2f962dc5ac76",
+        "exhibitId": "26ffb5bd-5ee4-4250-9d34-a782df50c9b5",
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "links": [
+      {
+        "id": "f1ae67ba-53db-43a5-bf7f-dd23816a1342",
+        "fromHallId": "dc2d7e78-ee62-42cd-b01d-2f962dc5ac76",
+        "toHallId": "c0998f0e-30b5-436f-b512-ba2167e6684c",
+        "yaw": 90.0,
+        "pitch": 0.0
+      }
+    ],
+    "reviewer": "Куратор",
+    "reviewNote": "Проверено",
+    "publishedAt": "2026-11-23T20:43:25.361779400Z"
+  }
+}
