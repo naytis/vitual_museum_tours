@@ -1,0 +1,26 @@
+PASS 1 Incomplete route cannot be submitted
+PASS 2 Imports real Python manifest
+PASS 3 Rejected Python file is not imported
+PASS 4 Unreachable hall detected
+PASS 5 Duplicate link rejected
+PASS 6 Unplaced exhibit detected
+PASS 7 Cross-hall point rejected
+PASS 8 Invalid coordinates rejected
+PASS 9 Complete route validated
+PASS 10 Approval required before publication
+PASS 11 Review freezes editing
+PASS 12 Published release is immutable
+PASS 13 Exports published package
+PASS 14 Export includes identity and schema version
+PASS 15 Exported JPEG bytes unchanged
+PASS 16 Exported JPEG bytes unchanged
+PASS 17 Export does not overwrite a directory
+PASS 18 Draft is isolated from published content
+PASS 19 Previous release archived
+PASS 20 New release published
+PASS 21 State restored from JSON
+PASS 22 Save failure reported
+PASS 23 Failed save leaves state unchanged
+PASS 24 Unknown manifest version rejected
+PASS 25 Escaping batch directory rejected
+ALL 25 CHECKS PASSED

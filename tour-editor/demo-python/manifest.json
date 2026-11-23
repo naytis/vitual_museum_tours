@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "source": "broken.jpg",
+      "valid": false,
+      "status": "error",
+      "error": "Файл не распознан как изображение"
+    },
+    {
+      "source": "gallery.png",
+      "valid": true,
+      "status": "ok",
+      "sourceFormat": "PNG",
+      "sourceWidth": 1200,
+      "sourceHeight": 600,
+      "output": "gallery.png.jpg",
+      "width": 640,
+      "height": 320
+    },
+    {
+      "source": "hall.jpg",
+      "valid": true,
+      "status": "ok",
+      "sourceFormat": "JPEG",
+      "sourceWidth": 320,
+      "sourceHeight": 160,
+      "output": "hall.jpg.jpg",
+      "width": 320,
+      "height": 160
+    },
+    {
+      "source": "square.png",
+      "valid": false,
+      "status": "error",
+      "error": "Требуется соотношение сторон 2:1"
+    }
+  ]
+}

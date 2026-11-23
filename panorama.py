@@ -53,7 +53,11 @@ def process_file(path, destination, max_width, quality):
         image, fmt = read_panorama(path)
         with image:
             entry.update(valid=True, sourceFormat=fmt, sourceWidth=image.width, sourceHeight=image.height)
-            name = path.name + ".jpg"
+            name = path.with_suffix(".jpg").name
+            index = 2
+            while (destination / name).exists():
+                name = f"{path.stem}_{index}.jpg"
+                index += 1
             width, height = prepare(image, destination / name, max_width, quality)
             entry.update(status="ok", output=name, width=width, height=height)
     except UnidentifiedImageError:

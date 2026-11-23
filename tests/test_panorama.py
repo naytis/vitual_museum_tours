@@ -92,4 +92,6 @@ class PipelineTests(unittest.TestCase):
         self.picture("hall.png")
         self.picture("hall.jpg")
         entries = run(self.src, self.out)
-        self.assertEqual(len({e["output"] for e in entries}), 2)
+        self.assertEqual([e["output"] for e in entries], ["hall.jpg", "hall_2.jpg"])
+        for entry in entries:
+            self.assertTrue((self.out / entry["output"]).is_file())
